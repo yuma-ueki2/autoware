@@ -91,13 +91,13 @@ simulations:
         sensor_model: sample_sensor_kit
         initialize_duration: "90"
 
-release:
-  components:
-    - name: planning
-      deployment:
-        type: container
-        artifact: main
-    - name: perception
-      deployment:
-        type: container
-        artifact: main
+# release:
+#  components:
+#    - name: planning
+#      deployment:
+#        type: container
+#        artifact: main
+#    - name: perception
+#      deployment:
+#        type: container
+#        artifact: main
